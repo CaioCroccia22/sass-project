@@ -6,7 +6,16 @@ header {
   background-color: #fff;
 }
 header h1 {
-  color: #2e9718;
+  color: #000000;
+}
+
+button {
+  padding: 16px;
+  background-color: #000000;
+  color: #fff;
+}
+button:hover {
+  background-color: yellow;
 }
 
 /*# sourceMappingURL=main.css.map */
