@@ -1,0 +1,35 @@
+// Criação de variável
+$corPrincipal: #fff;
+$corTexto: #000000;
+
+
+// Seletores 
+body{
+    background-color: $corPrincipal;
+}
+
+header{
+    background-color: $corPrincipal;
+
+    // Elemento pertence ao pai
+    h1{
+        color: $corTexto;
+    }
+}
+
+button{
+    padding: 16px;
+    background-color: $corTexto;
+    color: $corPrincipal;
+
+    // Hover effect
+    &:hover{
+        background-color: yellow;
+    }
+}
+
+
+
+// header h1{
+//     color: red;
+// }
