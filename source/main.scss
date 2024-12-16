@@ -1,30 +1,33 @@
-// Criação de variável
-$corPrincipal: #fff;
-$corTexto: #000000;
+//Importação Modulos
+@use 'config/reset';
+@use 'config/cores';
 
+// Criação de variável
+// $corPrincipal: #fff;
+// $corTexto: #000000;
 
 // Seletores 
 body{
-    background-color: $corPrincipal;
+    background-color: cores.$corDeFundo;
 }
 
 header{
-    background-color: $corPrincipal;
+    background-color: cores.$corPrincipal;
 
     // Elemento pertence ao pai
     h1{
-        color: $corTexto;
+        color: cores.$corSecundaria;
     }
 }
 
 button{
     padding: 16px;
-    background-color: $corTexto;
-    color: $corPrincipal;
+    background-color: cores.$corPrincipal;
+    color: cores.$corSecundaria;
 
     // Hover effect
     &:hover{
-        background-color: yellow;
+        background-color: rgb(150, 63, 201);
     }
 }
 

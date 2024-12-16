@@ -1,21 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
 body {
-  background-color: #fff;
+  background-color: #c0c0c0;
 }
 
 header {
-  background-color: #fff;
+  background-color: #1cbfd8;
 }
 header h1 {
-  color: #000000;
+  color: #0a272c;
 }
 
 button {
   padding: 16px;
-  background-color: #000000;
-  color: #fff;
+  background-color: #1cbfd8;
+  color: #0a272c;
 }
 button:hover {
-  background-color: yellow;
+  background-color: rgb(150, 63, 201);
 }
 
 /*# sourceMappingURL=main.css.map */
