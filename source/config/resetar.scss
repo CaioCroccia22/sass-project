@@ -1,8 +1,8 @@
-@use 'vari';
+@use 'var';
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: vari.$fontPrincipal;
+    font-family: var.$fontPrincipal;    
 }
