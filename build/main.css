@@ -66,4 +66,10 @@ header {
   cursor: pointer;
 }
 
+@media screen and (max-width: 767px) {
+  body {
+    background-color: yellow;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */

@@ -80,3 +80,8 @@ header{
         }
 }
 
+@media screen and (max-width: var.$mobile){
+    body{
+        background-color: yellow;
+    }
+}
