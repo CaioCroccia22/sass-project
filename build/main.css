@@ -31,8 +31,9 @@ header {
   max-width: 100%;
 }
 .form-container h2 {
-  font-size: 48px;
+  font-size: 3em;
   text-align: center;
+  margin-bottom: 30px;
 }
 .form-container form {
   width: 100%;
@@ -61,14 +62,17 @@ header {
   font-weight: bold;
   font-size: 18px;
 }
+.form-container form button:hover {
+  background-color: rgb(0, 133.8625592417, 134.5);
+}
 .form-container form label {
   font-weight: bold;
   cursor: pointer;
 }
 
 @media screen and (max-width: 767px) {
-  body {
-    background-color: yellow;
+  .container {
+    max-width: 80%;
   }
 }
 
